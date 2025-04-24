@@ -1,0 +1,14 @@
+C:\Users\arima\OneDrive\Desktop\Test\Recuperatorio\Recuperatorio\bin\Debug\net8.0\Recuperatorio.exe
+C:\Users\arima\OneDrive\Desktop\Test\Recuperatorio\Recuperatorio\bin\Debug\net8.0\Recuperatorio.deps.json
+C:\Users\arima\OneDrive\Desktop\Test\Recuperatorio\Recuperatorio\bin\Debug\net8.0\Recuperatorio.runtimeconfig.json
+C:\Users\arima\OneDrive\Desktop\Test\Recuperatorio\Recuperatorio\bin\Debug\net8.0\Recuperatorio.dll
+C:\Users\arima\OneDrive\Desktop\Test\Recuperatorio\Recuperatorio\bin\Debug\net8.0\Recuperatorio.pdb
+C:\Users\arima\OneDrive\Desktop\Test\Recuperatorio\Recuperatorio\obj\Debug\net8.0\Recuperatorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arima\OneDrive\Desktop\Test\Recuperatorio\Recuperatorio\obj\Debug\net8.0\Recuperatorio.AssemblyInfoInputs.cache
+C:\Users\arima\OneDrive\Desktop\Test\Recuperatorio\Recuperatorio\obj\Debug\net8.0\Recuperatorio.AssemblyInfo.cs
+C:\Users\arima\OneDrive\Desktop\Test\Recuperatorio\Recuperatorio\obj\Debug\net8.0\Recuperatorio.csproj.CoreCompileInputs.cache
+C:\Users\arima\OneDrive\Desktop\Test\Recuperatorio\Recuperatorio\obj\Debug\net8.0\Recuperatorio.dll
+C:\Users\arima\OneDrive\Desktop\Test\Recuperatorio\Recuperatorio\obj\Debug\net8.0\refint\Recuperatorio.dll
+C:\Users\arima\OneDrive\Desktop\Test\Recuperatorio\Recuperatorio\obj\Debug\net8.0\Recuperatorio.pdb
+C:\Users\arima\OneDrive\Desktop\Test\Recuperatorio\Recuperatorio\obj\Debug\net8.0\Recuperatorio.genruntimeconfig.cache
+C:\Users\arima\OneDrive\Desktop\Test\Recuperatorio\Recuperatorio\obj\Debug\net8.0\ref\Recuperatorio.dll
