@@ -1,13 +1,13 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="7MziqTJtRVULlghhqKGb">
-    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="1662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FD1AK0MsAcTXcXOlc3f2-2" value="Medio de Transporte" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="140" width="210" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="FD1AK0MsAcTXcXOlc3f2-3" value="- string nombre&lt;div&gt;- string fuente de energia&lt;/div&gt;&lt;div&gt;- cantidad de pasajeros maximo&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-2">
+        <mxCell id="FD1AK0MsAcTXcXOlc3f2-3" value="- string nombre&lt;div&gt;- cantidad de pasajeros maximo&lt;/div&gt;&lt;div&gt;- caracteristica&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-2">
           <mxGeometry y="30" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FD1AK0MsAcTXcXOlc3f2-5" value="+ void avanzar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-2">
@@ -22,7 +22,7 @@
         <mxCell id="FD1AK0MsAcTXcXOlc3f2-7" value="Electricos" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="320" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="FD1AK0MsAcTXcXOlc3f2-8" value="- string nombre&lt;div&gt;- string fuente de energia&lt;/div&gt;&lt;div&gt;- cantidad de pasajeros maximo&lt;/div&gt;&lt;div&gt;- terreno&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-7">
+        <mxCell id="FD1AK0MsAcTXcXOlc3f2-8" value="&lt;br&gt;&lt;div&gt;- string tipo_bateria&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-7">
           <mxGeometry y="30" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FD1AK0MsAcTXcXOlc3f2-10" value="+ void avanzar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-7">
@@ -37,7 +37,7 @@
         <mxCell id="FD1AK0MsAcTXcXOlc3f2-12" value="Manuales" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="270" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="FD1AK0MsAcTXcXOlc3f2-13" value="- string nombre&lt;div&gt;- string fuente de energia&lt;/div&gt;&lt;div&gt;- cantidad de pasajeros maximo&lt;/div&gt;&lt;div&gt;- terreno&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-12">
+        <mxCell id="FD1AK0MsAcTXcXOlc3f2-13" value="- string Equipo_seguridad" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-12">
           <mxGeometry y="30" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FD1AK0MsAcTXcXOlc3f2-14" value="+ void avanzar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-12">
@@ -52,11 +52,26 @@
         <mxCell id="FD1AK0MsAcTXcXOlc3f2-19" value="Combustibles Fosiles" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="290" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="FD1AK0MsAcTXcXOlc3f2-20" value="- string nombre&lt;div&gt;- string fuente de energia&lt;/div&gt;&lt;div&gt;- cantidad de pasajeros maximo&lt;/div&gt;&lt;div&gt;- terreno&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-19">
+        <mxCell id="FD1AK0MsAcTXcXOlc3f2-20" value="- string nivel_contaminacion" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-19">
           <mxGeometry y="30" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FD1AK0MsAcTXcXOlc3f2-21" value="+ void avanzar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-19">
           <mxGeometry y="100" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FD1AK0MsAcTXcXOlc3f2-22" value="Registro" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-30" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FD1AK0MsAcTXcXOlc3f2-23" value="- MedioTransporte[] papeles&lt;div&gt;- cantidad registrados&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-22">
+          <mxGeometry y="30" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FD1AK0MsAcTXcXOlc3f2-25" value="- Registrar Medio&lt;div&gt;- Moverse&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-22">
+          <mxGeometry y="80" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FD1AK0MsAcTXcXOlc3f2-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.431;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FD1AK0MsAcTXcXOlc3f2-2" target="FD1AK0MsAcTXcXOlc3f2-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="110" as="sourcePoint" />
+            <mxPoint x="450" y="60" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
