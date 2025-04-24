@@ -22,7 +22,7 @@
         <mxCell id="FD1AK0MsAcTXcXOlc3f2-7" value="Electricos" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="320" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="FD1AK0MsAcTXcXOlc3f2-8" value="&lt;br&gt;&lt;div&gt;- string tipo_bateria&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-7">
+        <mxCell id="FD1AK0MsAcTXcXOlc3f2-8" value="&lt;br&gt;&lt;div&gt;- string tipo_bateria&lt;/div&gt;&lt;div&gt;- string const fuente de energia&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-7">
           <mxGeometry y="30" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FD1AK0MsAcTXcXOlc3f2-10" value="+ void avanzar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-7">
@@ -37,7 +37,7 @@
         <mxCell id="FD1AK0MsAcTXcXOlc3f2-12" value="Manuales" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="270" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="FD1AK0MsAcTXcXOlc3f2-13" value="- string Equipo_seguridad" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-12">
+        <mxCell id="FD1AK0MsAcTXcXOlc3f2-13" value="- string Equipo_seguridad&lt;div&gt;- string const fuente de energia&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-12">
           <mxGeometry y="30" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FD1AK0MsAcTXcXOlc3f2-14" value="+ void avanzar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-12">
@@ -52,7 +52,7 @@
         <mxCell id="FD1AK0MsAcTXcXOlc3f2-19" value="Combustibles Fosiles" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="290" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="FD1AK0MsAcTXcXOlc3f2-20" value="- string nivel_contaminacion" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-19">
+        <mxCell id="FD1AK0MsAcTXcXOlc3f2-20" value="- string nivel_contaminacion&lt;div&gt;- string const fuente de energia&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-19">
           <mxGeometry y="30" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FD1AK0MsAcTXcXOlc3f2-21" value="+ void avanzar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FD1AK0MsAcTXcXOlc3f2-19">
